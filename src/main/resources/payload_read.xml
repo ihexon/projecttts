@@ -1,0 +1,7 @@
+<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'>
+    <voice  name='Microsoft Server Speech Text to Speech Voice (zh-TW, HsiaoChenNeural)'>
+        <prosody pitch='+0Hz' rate ='+0%' volume='+0%'>
+             text_data
+            </prosody>
+        </voice>
+</speak>

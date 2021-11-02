@@ -1,0 +1,13 @@
+{
+  "context": {
+    "synthesis": {
+      "audio": {
+        "metadataoptions": {
+          "sentenceBoundaryEnabled": "false",
+          "wordBoundaryEnabled": "true"
+        },
+        "outputFormat": "audio-24khz-48kbitrate-mono-mp3"
+      }
+    }
+  }
+}

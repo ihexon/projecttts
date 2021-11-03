@@ -25,8 +25,15 @@ export "JAVA_HOME=/usr/lib/jvm/java-11-openjdk"
 export "PATH=$JAVA_HOME/bin:$PATH"
 $ java -jar projecttts.jar --text "Hello boy !" --save ./test.wav
 ```
-
 Download [Test audio file](./test.wav)
+
+## Build
+```
+fish$ set -x JAVA_HOME /usr/lib/jvm/java-11-openjdk
+fish$ set -x PATH $JAVA_HOME/bin $PATH
+fish$ mvn assembly:single
+```
+
 
 ## Contribution
 
